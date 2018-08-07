@@ -2,3 +2,5 @@
 A demo showcasing the capability of coroutine
 
 Coroutine is powerfull lightweidht thread offered by kotlin, you can invoke the async invocation using layunch(no return type),asynch-await return Deffered<T> or runBlocking. The suspend is the core idea behind the coroutine
+
+The execution can be done on UI -UI thread CommonPool - Thread pool DefaulPool- CommonPool 
